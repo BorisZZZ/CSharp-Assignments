@@ -9,9 +9,9 @@ namespace Ex03.GarageLogic
         public abstract string ModelName { get; }
         public abstract string LisenceNUmber { get; }
         public abstract float FuelLevel { get; set; }
-        public Wheels CarWheels { get; }
+        public VehicleWheels Wheels { get; }
 
-        public abstract class Wheels
+        public abstract class VehicleWheels
         {
             abstract public byte WHeelsCount { get; }
 
