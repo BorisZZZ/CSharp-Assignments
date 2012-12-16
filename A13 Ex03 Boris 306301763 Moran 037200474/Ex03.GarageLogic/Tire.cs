@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ex03.GarageLogic
 {
-    public class Wheel
+    public class Tire
     {
         public string Manufacturer
         {
