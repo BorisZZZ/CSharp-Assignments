@@ -36,12 +36,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="ICar.cs" />
+    <Compile Include="IElectricVehicle.cs" />
+    <Compile Include="IFuelPoweredVehicle.cs" />
+    <Compile Include="IMotorCycle.cs" />
+    <Compile Include="IVehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Wheel.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <Compile Include="Tire.cs" />
+    <Compile Include="VehicleTires.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

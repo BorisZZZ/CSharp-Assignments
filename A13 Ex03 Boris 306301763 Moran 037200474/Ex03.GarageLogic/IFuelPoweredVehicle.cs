@@ -1,19 +1,11 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="IFuelPoweredVehicle.cs" company="">
-// TODO: Update copyright text.
-// </copyright>
-// -----------------------------------------------------------------------
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Ex03.GarageLogic
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
-    /// <summary>
-    /// TODO: Update summary.
-    /// </summary>
     public interface IFuelPoweredVehicle
     {
+
     }
 }
